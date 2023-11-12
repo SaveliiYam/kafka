@@ -7,6 +7,7 @@ curl -sSL \
 https://raw.githubusercontent.com/bitnami/containers/main/bitnami/kafka/docker-compose.yml > docker-compose.yml
 ```
  
+ 
 Before starting the Kafka broker, there’s a slight modification required in the docker-compose.yml file. Find the following string:
 ```bash
 KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://:9092
