@@ -3,7 +3,8 @@
 ## Run
 Donwload Bitnami’s Kafka Docker image
 ```bash
-curl -sSL https://raw.githubusercontent.com/bitnami/containers/main/bitnami/kafka/docker-compose.yml > docker-compose.yml
+curl -sSL \
+https://raw.githubusercontent.com/bitnami/containers/main/bitnami/kafka/docker-compose.yml > docker-compose.yml
 ```
  
 Before starting the Kafka broker, there’s a slight modification required in the docker-compose.yml file. Find the following string:
